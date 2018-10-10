@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="index-base index-selecter">
+    <view class="button">
+      <text class="selecter-text">武汉市</text>
+      <image class="selecter-icon" src="/asset/img/down-arrow.png"></image>
+    </view>
+    <view class="button">
+      <text>擅长领域</text>
+      <image class="selecter-icon" src="/asset/img/down-arrow.png"></image>
+    </view>
+    <view class="button">
+      <text>排序</text>
+      <image class="selecter-icon" src="/asset/img/down-arrow.png"></image>
+    </view>
+  </view>
+  <view class="">总时长{{ audio.duration }}</view>
+  <view class="">播放进度：{{ audio.currentTime }}</view>
+  
+  <view class='slider-view'>
+    <view class='slider-time'>00:00</view>
+    <view class='slider-slider'>
+      <slider class='slider' min='0' max='100' step="1" value="{{ audio.progress }}" backgroundColor='#000000' activeColor='#009600' block-size='12' block-color='#978897' show-value='true' bindchange="dragOver" bindchanging='draging' bindtap='sliderClick' />
+    </view>
+    <view class='slider-time'>00:00</view>
+  </view>
+
+  <!-- 上下播放暂停 控制 -->
+  <view class="songControl">
+    <button bindtap='play'>播放</button>
+    <button bindtap='pause'>暂停</button>
+  </view>
+</view>

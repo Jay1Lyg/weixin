@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/audio/audio"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#E60012",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "律吧特-找好律师",
+    "navigationStyle": "default",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "black",
+    "borderStyle": "black",
+    "selectedColor": "red",
+    "backgroundColor": "#F7F9F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "律师",
+        "iconPath": "/asset/img/gray-lawyer.png",
+        "selectedIconPath": "/asset/img/gray-lawyer.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "律所",
+        "iconPath": "/asset/img/gray-firm.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我们",
+        "iconPath": "/asset/img/gray-introduce.png",
+        "requireBackgroundModes":["audio"]
+      }
+    ]
+  }
+}

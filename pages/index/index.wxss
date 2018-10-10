@@ -1,0 +1,70 @@
+/**index.wxss**/
+.index-base{
+  width: 94%;
+  border: 1rpx #aaa solid;
+  border-radius: 10rpx;
+  margin: 4rpx;
+  font-size:28rpx;
+}
+
+.index-selecter {
+  height: 6%;
+  padding: 8rpx;
+  margin-top: 10rpx;
+  border: 1rpx #ECECEC solid;
+  border-radius: 20rpx;
+}
+.index-selecter .button{
+  display: inline-block;
+  background: red;
+  width: 33.3%;
+  text-align: center;
+  padding: 10repx;
+}
+.selecter-text{
+  margin: auto 5rpx;
+  padding: 10rpx 0;
+}
+.selecter-icon{
+  margin: auto 5rpx;
+  height: 9rpx;
+  width: 18rpx;
+  padding: 10rpx 0;
+}
+.index-total{
+  margin-top: 10rpx;
+}
+.play{
+  background: yellow;
+  display: block;
+  text-align: center;
+  margin:200rpx 20rpx;
+  width: 100%;
+  padding: 20rpx;
+  border-radius: 5rpx;
+}
+
+.slider{
+  width: 500rpx;
+}
+
+.slider-view{
+  display: block;
+  border: 1rpx solid #000;
+  line-height: 18rpx;
+}
+
+.slider-slider{
+  display: inline-block;
+  margin: auto;
+  height: 80rpx;
+}
+
+.slider-time{
+  display: inline-block;
+  border: 1rpx solid #000;
+  font-size:25rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color:#978897;
+}
